@@ -2,7 +2,7 @@
 
 Uma enciclopédia online interativa de Pokémon, que permite aos usuários pesquisar e visualizar informações detalhadas sobre diferentes Pokémon. Este projeto foi desenvolvido como parte da **Imersão Alura**.
 
-![Imagem da Pokédex](imagens/capa.png)
+![Imagem da Pokédex](imagens/Capa.png)
 
 ## Funcionalidades
 
