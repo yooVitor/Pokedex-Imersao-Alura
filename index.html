@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/Pokéball-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Enciclopédia Pokémon</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome ou número do pokémon" id="pesquisa">
+            <button onclick="procurar()">Procurar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Pokémon. Todos os direitos reservados a <a href="https://www.alura.com.br" target="_blank">Nintendo</a> e a <a href="https://www.pokemon.com" target="_blank">Pokémon Company</a></p>
+        <p>Projeto da <a href="https://www.alura.com.br" target="_blank">Imersão Alura</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
